@@ -1,0 +1,12 @@
+#include<iostream.h>
+inline void output(char *str)
+{
+ cout<<"\t"<<str;
+}
+
+void main()
+{
+ output("hello");
+ output("world");
+
+}
